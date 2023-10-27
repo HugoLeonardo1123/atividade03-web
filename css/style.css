@@ -1,0 +1,83 @@
+
+
+body{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: black;
+}
+.menu ul{
+    display: flex;
+    font-size: 30px;
+    list-style-type: none;
+    
+    
+}
+
+
+.menu a{
+    display: block;
+    padding:8px;
+}
+
+
+
+.guerras{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 4rem;
+    padding-top: 1rem;
+}
+.guerras h1{
+    text-align: center;
+}
+
+#imagensprincipais{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+#listas li{
+    font-size: 20px;
+}
+
+.conteudopaginas{
+    
+    margin:30px;
+    
+}
+
+.conteudopaginas h1,h2,p,li, label{
+    
+    color: rgb(224, 212, 212);
+    
+}
+
+.videotab{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+td, th{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+table, th, td {
+    border:1px solid rgb(241, 239, 239);
+  }
+
+#conteudocontato{
+    
+    justify-content: center;
+    margin:30px;
+    color: rgb(224, 212, 212);
+}
